@@ -6,7 +6,7 @@ import CartProvider from "./components/store/cart-provider";
 
 function App() {
   const [showCart, setCartShow] = useState(false);
-
+  //change state when headerCartButton is clicked
   const showCartHandler = () => {
     setCartShow(true);
   };
