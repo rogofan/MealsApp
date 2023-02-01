@@ -10,7 +10,7 @@ function App() {
   const showCartHandler = () => {
     setCartShow(true);
   };
-  //change state when Modal overlay is canceled
+  //change state when Modal overlay is canceled (btn & Backdrop)
   const hideCartHandler = () => {
     setCartShow(false);
   };
