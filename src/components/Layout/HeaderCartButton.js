@@ -1,5 +1,6 @@
 import style from "./HeaderCartButton.module.css";
 import CartIcon from "../Cart/CartIcon";
+import React from "react";
 import CartContext from "../store/cart-context";
 import { useContext, useEffect, useState } from "react";
 const HeaderCartButton = (props) => {

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import ReactDOM from "react-dom";
 import style from "./Modal.module.css";
+import React from "react";
 
 const Backdrop = (props) => {
   //instead of chaning can be use useContext
